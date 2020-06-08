@@ -4,7 +4,7 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 
 # Cleanup Code 01
 
-Video Guide : 
+Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662
 
 # Cleanup Code 02
 

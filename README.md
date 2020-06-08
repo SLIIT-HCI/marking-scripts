@@ -20,3 +20,6 @@ This will access a set of GitHub repository urls inside student submissions and 
 Video Guide : https://web.microsoftstream.com/video/2c96b0e5-f613-4233-a35f-a946d0ca93de?list=trending
 
 # Cleanup Code 04
+
+Video Guide :
+Overall Structure Diagram :https://mysliit-my.sharepoint.com/personal/vijani_p_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode%2Fcleanup%5Fcode%5F4%2DOOP%2Ejpg&parent=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode

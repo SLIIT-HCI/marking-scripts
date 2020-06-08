@@ -1,6 +1,6 @@
 # marking-scripts
 
-Scripts to make marking easier and faster at SLIIT. 
+Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes and in this README file all explanations and Video Guides are given. You can use them for pre-processing student submissions before marking, which will save your time. Happy Marking!
 
 # Cleanup Code 01
 

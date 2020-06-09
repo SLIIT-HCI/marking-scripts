@@ -27,3 +27,7 @@ Video Guide : https://web.microsoftstream.com/video/2c96b0e5-f613-4233-a35f-a946
 
 Video Guide :<br><br>
 Overall Structure Diagram :https://mysliit-my.sharepoint.com/personal/vijani_p_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode%2Fcleanup%5Fcode%5F4%2DOOP%2Ejpg&parent=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode
+
+# Student List Generator
+
+This will generate a student-list CSV from a submission folder downloaded from CourseWeb

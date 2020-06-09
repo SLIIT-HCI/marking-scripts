@@ -2,6 +2,13 @@
 
 Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes and in this README file all explanations and Video Guides are given. You can use them for pre-processing student submissions before marking, which will save your time. Happy Marking!
 
+### Prerequisites
+
+Python Libraries
+patoolib    python -m pip install patool
+pyunpack    python -m pip install pyunpack
+
+
 ## Cleanup Code 01
 
 Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. 

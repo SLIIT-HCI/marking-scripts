@@ -8,7 +8,7 @@ Script to organize files inside student submissions for IP module which will mak
 <br><br>
 Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br> 
 
-Overall Structure Diagram : 
+Overall Structure Diagram : <br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_1-IP.jpg
 
 ## Cleanup Code 02

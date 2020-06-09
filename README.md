@@ -4,9 +4,9 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 
 # Cleanup Code 01
 
-Script to organize files inside student submissions for IP module which will make marking easier.
-<br>
-Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br> <br>
+Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. 
+<br><br>
+Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br> 
 
 Overall Structure Diagram : https://mysliit-my.sharepoint.com/personal/vijani_p_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode%2Fcleanup%5Fcode%5F1%2DIP%2Ejpg&parent=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode
 

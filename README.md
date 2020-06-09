@@ -5,18 +5,24 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 ### Prerequisites
 
 #### Python Libraries
-<br>patoolib    
-    $python -m pip install patool
-<br>pyunpack    
-    $python -m pip install pyunpack
-<br>unrar       
-    $python -m pip install unrar
+
+* patoolib
+
+		$ python -m pip install patool
+
+* pyunpack
+
+		$ python -m pip install pyunpack
+
+* unrar
+
+		$ python -m pip install unrar
 
 ## Cleanup Code 01
 
-Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. 
+Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below.
 <br><br>
-Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br> 
+Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br>
 
 Overall Structure Diagram : <br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_1-IP.jpg

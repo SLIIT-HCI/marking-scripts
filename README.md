@@ -18,6 +18,10 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 
 		$ python -m pip install unrar
 
+* requests
+
+		$ python -m pip install requests
+		
 ## Cleanup Code 01
 
 Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below.

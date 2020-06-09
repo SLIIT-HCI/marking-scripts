@@ -6,11 +6,11 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 
 #### Python Libraries
 <br>patoolib    
-    $python -m pip install patool
+    $ python -m pip install patool
 <br>pyunpack    
-    $python -m pip install pyunpack
+    $ python -m pip install pyunpack
 <br>unrar       
-    $python -m pip install unrar
+    $ python -m pip install unrar
 
 ## Cleanup Code 01
 

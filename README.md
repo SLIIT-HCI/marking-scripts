@@ -27,4 +27,5 @@ Video Guide : https://web.microsoftstream.com/video/2c96b0e5-f613-4233-a35f-a946
 ## Cleanup Code 04
 
 Video Guide :<br><br>
-Overall Structure Diagram :
+Overall Structure Diagram :<br>
+https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg

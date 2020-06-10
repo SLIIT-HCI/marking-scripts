@@ -24,7 +24,7 @@ Scripts to make marking easier and faster at SLIIT. From this repository, you ca
 		
 ## Cleanup Code 01
 
-Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below.
+Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. For marking, need to open individual submissions one by one including folder navigation. From this script, the files need to be marked can be filtered out named with student ID and can be categorized files as needed (ex: files of Question 1, files of Question 2, etc or .docs files, .pdf files, etc). This will save time. 
 <br><br>
 Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br>
 

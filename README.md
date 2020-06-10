@@ -36,13 +36,13 @@ https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagr
 Filter Submissions of a given list of Student ID's from a whole set of submissions, into another folder.
 Version 1- Student ID list is hard coded.
 
-Video Guide : https://web.microsoftstream.com/video/65137960-559e-472f-9b65-fb3726effbb4?list=studio
+Video Guide : https://web.microsoftstream.com/video/ecc32bcf-1125-4c1d-8ade-06331f419c78?list=studio
 
 ## Cleanup Code 03
 
 This will access a set of GitHub repository urls inside student submissions and clone the project into relevant folder.
 
-Video Guide : https://web.microsoftstream.com/video/2c96b0e5-f613-4233-a35f-a946d0ca93de?list=trending
+Video Guide : https://web.microsoftstream.com/video/add55c47-98db-4cf0-9988-d28ff115f0f8?list=studio
 
 ## Cleanup Code 04
 

@@ -6,20 +6,46 @@ from pyunpack import Archive
 os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.so"
 from unrar import rarfile
 import re
+import pyfiglet
 
 
+ascii_banner = pyfiglet.figlet_format("Welcome!!!")
+print(ascii_banner)
 
-print("Extract code by Vijani")
+print("************ Cleanup Code for OOP marking **************\n\nYou need to have following folders: \n\t1. src - Folder contains all submissions\n\t2. cpy - Folder to copy zip files inside submissions\n\t3. ext - Folder to extract zip files\n\t4. txt - Folder to take all merged text files\n\t5. rjc - Folder to have rejected files\n\n")
 
-src_path = "/home/vijani/Documents/SLIIT/research/marking_automated/OOP_Thilmi/all_submissions"
+src_path = ""
+cpy_path = "" 
+ext_path = ""
+txt_path = ""
+rjc_path = ""
 
-cpy_path = "/home/vijani/Documents/SLIIT/research/marking_automated/OOP_Thilmi/all_zipz"
+# get folder paths as user input
 
-ext_path = "/home/vijani/Documents/SLIIT/research/marking_automated/OOP_Thilmi/extracted"
+# work for any Python version
 
-txt_path = "/home/vijani/Documents/SLIIT/research/marking_automated/OOP_Thilmi/text_files"
+def get_input_paths():
+    try:
+        get_input_paths_py27()
+    except:
+        get_input_paths_py3()
 
-rjc_path = "/home/vijani/Documents/SLIIT/research/marking_automated/OOP_Thilmi/rejected"
+def get_input_paths_py27():
+    global src_path, cpy_path, ext_path, txt_path, rjc_path
+    src_path = raw_input("Enter full path for your 'src' folder : ")
+    cpy_path = raw_input("Enter full path for your 'cpy' folder : ")
+    ext_path = raw_input("Enter full path for your 'ext' folder : ")
+    txt_path = raw_input("Enter full path for your 'txt' folder : ")
+    rjc_path = raw_input("Enter full path for your 'rjc' folder : ")
+
+def get_input_paths_py3():
+    global src_path, cpy_path, ext_path, txt_path, rjc_path
+    src_path = input("Enter full path for your 'src' folder : ")
+    cpy_path = input("Enter full path for your 'cpy' folder : ")
+    ext_path = input("Enter full path for your 'ext' folder : ")
+    txt_path = input("Enter full path for your 'txt' folder : ")
+    rjc_path = input("Enter full path for your 'rjc' folder : ")
+
 
 arc_ext = [".zip", ".7z"]
 
@@ -30,14 +56,14 @@ fil_ext = [".java", ".txt"] # some students had saved java content on .txt files
 #collect all zip files inside folders into another folder 
 
 def collectAll():
-    for dir_path, dirnames, filenames in os.walk(src_path):
+     for dir_path, dirnames, filenames in os.walk(src_path):
         for filename in filenames:
             src = os.path.join(dir_path, filename)
             dest = os.path.join(cpy_path, filename)
             shutil.copy2(src, dest)
+     print("All copied...!")
+   
         
-
-
 
 #extract all zip files into another folder ext_path
 
@@ -114,6 +140,7 @@ def filterAllCombinedFiles():
 
 #function calls
 
+get_input_paths()
 
 collectAll()
 

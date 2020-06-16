@@ -31,3 +31,7 @@ Overall Structure Diagram :https://mysliit-my.sharepoint.com/personal/vijani_p_s
 # Student List Generator
 
 This will generate a student-list CSV from a submission folder downloaded from CourseWeb
+1. Create a folder called 'app' in the Downloded submission folder
+2. Copy the code into the 'app' folder
+3. run the script
+4. NameList.csv will be henerated outside the 'app' folder

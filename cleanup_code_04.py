@@ -14,6 +14,7 @@ print(ascii_banner)
 
 print("************ Cleanup Code for OOP marking **************\n\nYou need to have following folders: \n\t1. src - Folder contains all submissions\n\t2. cpy - Folder to copy zip files inside submissions\n\t3. ext - Folder to extract zip files\n\t4. txt - Folder to take all merged text files\n\t5. rjc - Folder to have rejected files\n\n")
 
+
 src_path = ""
 cpy_path = "" 
 ext_path = ""
@@ -58,9 +59,15 @@ fil_ext = [".java", ".txt"] # some students had saved java content on .txt files
 def collectAll():
      for dir_path, dirnames, filenames in os.walk(src_path):
         for filename in filenames:
+
+            ext_type = filename.split('.')[1] 
+            stu_id = re.search("it[0-9]{8}", dir_path)
+            new_filename = stu_id.group(0) + "." + ext_type
+
             src = os.path.join(dir_path, filename)
-            dest = os.path.join(cpy_path, filename)
+            dest = os.path.join(cpy_path, new_filename)
             shutil.copy2(src, dest)
+
      print("All copied...!")
    
         
@@ -72,31 +79,23 @@ def extractAll():
     for file in os.listdir(cpy_path):
         fileName = cpy_path + '/' + file
 
-        # check is the zip file name is in correct format
-        x = re.search("(^IT|it|It|iT)([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])" , file) 
-        if(x!=None):
+        ID = file[0:10]     # take first 10 charactors of file name, which is the student ID
 
-            ID = file[0:10]     # take first 10 charactors of file name, which is the student ID
+        mkdir_command = "mkdir " + ext_path + "/" + ID
+        os.system(mkdir_command)
 
-            mkdir_command = "mkdir " + ext_path + "/" + ID
-            os.system(mkdir_command)
+        ext_dir = ext_path + "/" + ID
 
-            ext_dir = ext_path + "/" + ID
-
-            if file.endswith(tuple(arc_ext)):
-                Archive(fileName).extractall(ext_dir)
+        if file.endswith(tuple(arc_ext)):
+            Archive(fileName).extractall(ext_dir)
       
-            elif file.endswith(".rar"):
-                rar = rarfile.RarFile(fileName)
-                rar.extractall(ext_dir)
+        elif file.endswith(".rar"):
+            rar = rarfile.RarFile(fileName)
+            rar.extractall(ext_dir)
         
-            else:
-                shutil.copy2(fileName, rjc_path)
         else:
-            count = count + 1
             shutil.copy2(fileName, rjc_path)
-   
-    print("Total rejected files : " , count)
+
 
 
 

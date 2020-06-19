@@ -46,7 +46,7 @@ Video Guide : https://web.microsoftstream.com/video/add55c47-98db-4cf0-9988-d28f
 
 ## Cleanup Code 04
 
-This script is to merge the content of all the .java files in a student submission, into one text file, which will reduce time in folder navigation and file opening. 
+This script is to merge the content of all the .java files in a student submission, into one text file, which will reduce time in folder navigation and file opening. All submissions are processed, newest version can be found here in Github, no any student submission is rejected. 
 
 Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d65284200766<br><br>
 Overall Structure Diagram :<br>

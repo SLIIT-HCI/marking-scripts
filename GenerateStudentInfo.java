@@ -18,7 +18,7 @@ public class GenerateStudentInfo {
             workbook = Workbook.createWorkbook(new File(path + "\\Students Info.xls "));
 
             WritableSheet wsheet = workbook.createSheet("First Sheet", 0);
-            File folder = new File(path + "\\Final Paper Marking");
+            File folder = new File(path + "\\Submissions");
             File[] listOfFiles = folder.listFiles();
 
             Label label = new Label(0, 2, "A label record");

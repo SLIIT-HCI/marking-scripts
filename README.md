@@ -51,3 +51,11 @@ This script is to merge the content of all the .java files in a student submissi
 Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d65284200766<br><br>
 Overall Structure Diagram :<br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
+
+# Student List Generator
+
+This will generate a student-list CSV from a submission folder downloaded from CourseWeb
+1. Create a folder called 'app' in the Downloded submission folder
+2. Copy the code into the 'app' folder
+3. run the script
+4. NameList.csv will be henerated outside the 'app' folder

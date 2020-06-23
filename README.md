@@ -51,3 +51,15 @@ This script is to merge the content of all the .java files in a student submissi
 Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d65284200766<br><br>
 Overall Structure Diagram :<br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
+
+# Generate Student Info in a CSV file 
+
+This will generate Student ID and Student Name in a CSV file from the downloaded courseweb submissions. 
+ * courseweb downloaded file name will pattern is : <StudentID> <StudentName> <StudenId>_<RandomNo>_assignsubmission_file_
+Steps to follow : 
+	1	download and copy the "GenerateStudentInfo" java file into your working directory	
+	2	create a folder called "Submissions" in the working directory 
+	3	copy the downloaded students submissions to the  "Submissions" folder
+	4	run the script 
+	5 	You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
+	

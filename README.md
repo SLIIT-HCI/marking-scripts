@@ -46,17 +46,24 @@ Video Guide : https://web.microsoftstream.com/video/add55c47-98db-4cf0-9988-d28f
 
 ## Cleanup Code 04
 
-This script is to merge the content of all the .java files in a student submission, into one text file, which will reduce time in folder navigation and file opening. 
+This script is to merge the content of all the .java files in a student submission, into one text file, which will reduce time in folder navigation and file opening. All submissions are processed, newest version can be found here in Github, no any student submission is rejected. 
 
 Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d65284200766<br><br>
 Overall Structure Diagram :<br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
 
+# Student List Generator
+
+This will generate a student-list CSV from a submission folder downloaded from CourseWeb
+1. Create a folder called 'app' in the Downloded submission folder
+2. Copy the code into the 'app' folder
+3. run the script
+4. NameList.csv will be henerated outside the 'app' folder
+
 # Generate Student Info in a CSV file 
 
 This will generate Student ID and Student Name in a CSV file from the downloaded courseweb submissions. 
 courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId)_(RandomNo)_assignsubmission_file_
-
 
 1. Download and copy the "GenerateStudentInfo" java file into your working directory
 2. create a folder called "Submissions" in the working directory
@@ -64,4 +71,3 @@ courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId
 4. run the script 
 5. You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
 
-	

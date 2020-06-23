@@ -57,9 +57,9 @@ https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagr
 This will generate Student ID and Student Name in a CSV file from the downloaded courseweb submissions. 
  * courseweb downloaded file name will pattern is : <StudentID> <StudentName> <StudenId>_<RandomNo>_assignsubmission_file_
 Steps to follow : 
-	1	download and copy the "GenerateStudentInfo" java file into your working directory	
-	2	create a folder called "Submissions" in the working directory 
-	3	copy the downloaded students submissions to the  "Submissions" folder
-	4	run the script 
-	5 	You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
+		1.download and copy the "GenerateStudentInfo" java file into your working directory	
+		2.create a folder called "Submissions" in the working directory 
+		3.copy the downloaded students submissions to the  "Submissions" folder
+		4.run the script 
+		5.You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
 	

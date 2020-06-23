@@ -1,32 +1,56 @@
 # marking-scripts
 
-Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes and in this README file all explanations and Video Guides are given. You can use them for pre-processing student submissions before marking, which will save your time. Happy Marking!
+Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes. This README file and Video Guides are given for explanations. You can use the scripts for pre-processing student submissions before marking, which will save your time. Happy Marking!
 
-# Cleanup Code 01
+### Prerequisites
 
-Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. 
+#### Python Libraries
+
+* patoolib
+
+		$ python -m pip install patool
+
+* pyunpack
+
+		$ python -m pip install pyunpack
+
+* unrar
+
+		$ python -m pip install unrar
+
+* requests
+
+		$ python -m pip install requests
+		
+## Cleanup Code 01
+
+Script to organize files inside student submissions for IP module which will make marking easier. When we download a set of student submissions for an IP assignment, it will give us a .zip file. The structure of the files and folders organized inside that .zip file is represented in the Overall Structure Diagram below. For marking, need to open individual submissions one by one including folder navigation. From this script, the files need to be marked can be filtered out named with student ID and can be categorized files as needed (ex: files of Question 1, files of Question 2, etc or .docs files, .pdf files, etc). This will save time. 
 <br><br>
-Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br> 
+Video Guide : https://web.microsoftstream.com/video/820442b1-3891-4a58-8b10-52622989e662 <br>
 
-Overall Structure Diagram : https://mysliit-my.sharepoint.com/personal/vijani_p_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode%2Fcleanup%5Fcode%5F1%2DIP%2Ejpg&parent=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode
+Overall Structure Diagram : <br>
+https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_1-IP.jpg
 
-# Cleanup Code 02
+## Cleanup Code 02
 
 Filter Submissions of a given list of Student ID's from a whole set of submissions, into another folder.
 Version 1- Student ID list is hard coded.
 
-Video Guide : https://web.microsoftstream.com/video/65137960-559e-472f-9b65-fb3726effbb4?list=studio
+Video Guide : https://web.microsoftstream.com/video/ecc32bcf-1125-4c1d-8ade-06331f419c78?list=studio
 
-# Cleanup Code 03
+## Cleanup Code 03
 
 This will access a set of GitHub repository urls inside student submissions and clone the project into relevant folder.
 
-Video Guide : https://web.microsoftstream.com/video/2c96b0e5-f613-4233-a35f-a946d0ca93de?list=trending
+Video Guide : https://web.microsoftstream.com/video/add55c47-98db-4cf0-9988-d28ff115f0f8?list=studio
 
-# Cleanup Code 04
+## Cleanup Code 04
 
-Video Guide :<br><br>
-Overall Structure Diagram :https://mysliit-my.sharepoint.com/personal/vijani_p_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode%2Fcleanup%5Fcode%5F4%2DOOP%2Ejpg&parent=%2Fpersonal%2Fvijani%5Fp%5Fsliit%5Flk%2FDocuments%2Fcleanup%5Fcode
+This script is to merge the content of all the .java files in a student submission, into one text file, which will reduce time in folder navigation and file opening. All submissions are processed, newest version can be found here in Github, no any student submission is rejected. 
+
+Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d65284200766<br><br>
+Overall Structure Diagram :<br>
+https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
 
 # Student List Generator
 

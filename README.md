@@ -59,3 +59,15 @@ This will generate a student-list CSV from a submission folder downloaded from C
 2. Copy the code into the 'app' folder
 3. run the script
 4. NameList.csv will be henerated outside the 'app' folder
+
+# Generate Student Info in a CSV file 
+
+This will generate Student ID and Student Name in a CSV file from the downloaded courseweb submissions. 
+courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId)_(RandomNo)_assignsubmission_file_
+
+1. Download and copy the "GenerateStudentInfo" java file into your working directory
+2. create a folder called "Submissions" in the working directory
+3. copy the downloaded students submissions in to "Submissions" folder
+4. run the script 
+5. You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
+

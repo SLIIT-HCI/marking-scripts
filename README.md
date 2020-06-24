@@ -78,7 +78,7 @@ How to run:
 <br>* input_file.csv == the name of the CSV file downloaded from CourseWeb, ensure it is CSV format
 <br>* limit == the number of rows from the CSV file
 <br><br>
-Video Guide : https://github.com/SLIIT-HCI/marking-scripts/edit/master/README.md <br><br>
+Video Guide : https://web.microsoftstream.com/video/652fa76b-8534-4605-8670-75c58be261ba <br><br>
 Enjoy!
 <br><br>
 

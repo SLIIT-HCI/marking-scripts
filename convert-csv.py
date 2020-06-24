@@ -2,25 +2,6 @@ import csv
 import sys
 import re
 
-"""
-Instructions:
-	* create a new empty folder (DO NOT SKIP THIS STEP)
-	* place this file (convert-csv.py) and the downloaded CSV file from CourseWeb inside it
-	* run this file from within the folder
-	* it will create a seperate HTML file for each student submission, and a styles.css file
-	* if you want to enhance the look&feel of the HTML file, simply modify styles.css to your liking
-
-How to run:
-	* command:
-		$ cd folder
-		$ python convert-csv.py input_file.csv limit
-	* folder == the folder where everything is located
-	* input_file.csv == the name of the CSV file downloaded from CourseWeb, ensure it is CSV format
-	* limit == the number of rows from the CSV file
-
-Enjoy!
-"""
-
 def write_header(out):
 	out.write('<html>')
 	out.write('<head>')

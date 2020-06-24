@@ -83,24 +83,9 @@ Enjoy!
 
 ### Prerequisites 
 
-
-|   cleanup code  |   Prerequisites  |         How to install         |
-| --------------- | ---------------- | ------------------------------ |
-|                 |                  |                                |
-| Cleanup Code 01 | - patoolib       | python -m pip install patool   |
-| and             | - pyunpack       | python -m pip install pyunpack |       
-| Cleanup Code 04 | - unrar          | python -m pip install unrar    |
-| --------------- | ---------------- | ------------------------------ |
-| Cleanup Code 03 |  - requests      | python -m pip install requests |
-| --------------- | ---------------- | ------------------------------ |
-| convert-csv.py  |                  |                                |
-|                 |                  |                                |
-|                 |                  |                                |
-|                 |                  |                                |
-
 #### Python Libraries
 
-For Cleanup Code 01 and Cleanup Code 04<br>
+<br>For Cleanup Code 01 and Cleanup Code 04<br><br>
 * patoolib
 
 		$ python -m pip install patool
@@ -113,7 +98,7 @@ For Cleanup Code 01 and Cleanup Code 04<br>
 
 		$ python -m pip install unrar
 
-For Cleanup Code 03<br>
+<br>For Cleanup Code 03<br><br>
 * requests
 
 		$ python -m pip install requests

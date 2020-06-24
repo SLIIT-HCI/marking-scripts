@@ -1,42 +1,9 @@
 # marking-scripts
 
 Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes. This README file and Video Guides are given for explanations. You can use the scripts for pre-processing student submissions before marking, which will save your time. Happy Marking!
-
-### Prerequisites 
-
-| --------------- | ---------------- | ------------------------------ |
-|   cleanup code  |   Prerequisites  |         How to install         |
-| --------------- | ---------------- | ------------------------------ |
-|                 | Python Libraries |                                |
-| Cleanup Code 01 |  - patoolib      | python -m pip install patool   |
-| Cleanup Code 02 |  - pyunpack      | python -m pip install pyunpack |
-| Cleanup Code 03 |  - unrar         | python -m pip install unrar    |
-| Cleanup Code 04 |  - requests      | python -m pip install requests |
-| --------------- | ---------------- | ------------------------------ |
-| convert-csv.py  |                  |                                |
-| --------------- | ---------------- | ------------------------------ |
-|                 |                  |                                |
-| --------------- | ---------------- | ------------------------------ |
+*Note: Please find the prerequisites for these scripts at the end of the README file.
 
 
-#### Python Libraries
-
-* patoolib
-
-		$ python -m pip install patool
-
-* pyunpack
-
-		$ python -m pip install pyunpack
-
-* unrar
-
-		$ python -m pip install unrar
-
-* requests
-
-		$ python -m pip install requests
-		
 ## Cleanup Code 01
 _Development Contribution : Ms. Vijani Piyawardana_
 
@@ -102,7 +69,7 @@ Instructions:
 <br>* run this file from within the folder
 <br>* it will create a seperate HTML file for each student submission, and a styles.css file
 <br>* if you want to enhance the look&feel of the HTML file, simply modify styles.css to your liking
-<br>
+<br><br>
 How to run:
 <br>* command:
 <br>	$ cd folder
@@ -110,9 +77,26 @@ How to run:
 <br>* folder == the folder where everything is located
 <br>* input_file.csv == the name of the CSV file downloaded from CourseWeb, ensure it is CSV format
 <br>* limit == the number of rows from the CSV file
-<br>
+<br><br>
 Enjoy!
 
+
+### Prerequisites 
+
+
+|   cleanup code  |   Prerequisites  |         How to install         |
+| --------------- | ---------------- | ------------------------------ |
+|                 |                  |                                |
+| Cleanup Code 01 | - patoolib       | python -m pip install patool   |
+| and             | - pyunpack       | python -m pip install pyunpack |       
+| Cleanup Code 04 | - unrar          | python -m pip install unrar    |
+| --------------- | ---------------- | ------------------------------ |
+| Cleanup Code 03 |  - requests      | python -m pip install requests |
+| --------------- | ---------------- | ------------------------------ |
+| convert-csv.py  |                  |                                |
+|                 |                  |                                |
+|                 |                  |                                |
+|                 |                  |                                |
 
 
 

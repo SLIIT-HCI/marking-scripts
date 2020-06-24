@@ -1,6 +1,6 @@
 # marking-scripts
 
-Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes. This README file and Video Guides are given for explanations. You can use the scripts for pre-processing student submissions before marking, which will save your time. Happy Marking!
+Scripts to make marking easier and faster at SLIIT. From this repository, you can find all Python Scripts named as Cleanup Codes. This README file and Video Guides are given for explanations. You can use the scripts for pre-processing student submissions before marking, which will save your time. Happy Marking!<br><br>
 *Note: Please find the prerequisites for these scripts at the end of the README file.
 
 
@@ -98,5 +98,24 @@ Enjoy!
 |                 |                  |                                |
 |                 |                  |                                |
 
+#### Python Libraries
+
+For Cleanup Code 01 and Cleanup Code 04<br>
+* patoolib
+
+		$ python -m pip install patool
+
+* pyunpack
+
+		$ python -m pip install pyunpack
+
+* unrar
+
+		$ python -m pip install unrar
+
+For Cleanup Code 03<br>
+* requests
+
+		$ python -m pip install requests
 
 

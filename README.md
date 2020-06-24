@@ -80,10 +80,10 @@ How to run:
 <br><br>
 Enjoy!
 
+<br>
+## Prerequisites 
 
-### Prerequisites 
-
-#### Python Libraries
+### Python Libraries
 
 <br>For Cleanup Code 01 and Cleanup Code 04<br><br>
 * patoolib

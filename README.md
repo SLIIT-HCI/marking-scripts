@@ -63,7 +63,7 @@ courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId
 ## convert-csv.py 
 _Development Contribution : Dr. Shyam Reyal_
 
-Students have to answer MCQs in online exams, and we can download only one file with all the student answer records (either in excel or csv format) from the system, which is difficult to access and mark it. This code will generate individual file with MCQ answers in an essay format for each student.<br><br>
+Students have to answer MCQs in online exams, and we can download only one file with all the student answer records (either in excel or csv format) from the system, which is difficult to access and mark it. This script will generate individual file with MCQ answers in an essay format for each student.<br><br>
 Instructions:
 <br>* create a new empty folder (DO NOT SKIP THIS STEP)
 <br>* place this file (convert-csv.py) and the downloaded CSV file from CourseWeb inside it

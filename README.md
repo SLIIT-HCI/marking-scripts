@@ -52,7 +52,7 @@ Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d652
 Overall Structure Diagram :<br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
 
-# Student List Generator
+## Student List Generator
 
 This will generate a student-list CSV from a submission folder downloaded from CourseWeb
 1. Create a folder called 'app' in the Downloded submission folder
@@ -60,7 +60,7 @@ This will generate a student-list CSV from a submission folder downloaded from C
 3. run the script
 4. NameList.csv will be henerated outside the 'app' folder
 
-# Generate Student Info in a CSV file 
+## Generate Student Info in a CSV file 
 
 This will generate Student ID and Student Name in a CSV file from the downloaded courseweb submissions. 
 courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId)_(RandomNo)_assignsubmission_file_
@@ -70,4 +70,3 @@ courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId
 3. copy the downloaded students submissions in to "Submissions" folder
 4. run the script 
 5. You can find an excel sheet "Student Info" in your working directory which has StudentId and Names 
-

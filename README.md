@@ -63,47 +63,35 @@ courseweb downloaded file name  pattern is : (StudentID) (StudentName) (StudenId
 ## convert-csv.py 
 _Development Contribution : Dr. Shyam Reyal_
 
-Students have to answer MCQs in online exams, and we can download only one file with all the student answer records (either in excel or csv format) from the system, which is difficult to access and mark it. This script will generate individual file with MCQ answers in an essay format for each student.<br><br>
-Instructions:
-<br>* create a new empty folder (DO NOT SKIP THIS STEP)
-<br>* place this file (convert-csv.py) and the downloaded CSV file from CourseWeb inside it
-<br>* run this file from within the folder
-<br>* it will create a seperate HTML file for each student submission, and a styles.css file
-<br>* if you want to enhance the look&feel of the HTML file, simply modify styles.css to your liking
-<br><br>
-How to run:
-<br>* command:
-<br>	$ cd folder
-<br>	$ python convert-csv.py input_file.csv limit
-<br>* folder == the folder where everything is located
-<br>* input_file.csv == the name of the CSV file downloaded from CourseWeb, ensure it is CSV format
-<br>* limit == the number of rows from the CSV file
-<br><br>
-Video Guide : https://web.microsoftstream.com/video/652fa76b-8534-4605-8670-75c58be261ba <br><br>
-Enjoy!
-<br><br>
+Students have to answer MCQs in online exams, and we can download only one file with all the student answer records (either in excel or csv format) from the system, which is difficult to access and mark it. This script will generate individual file with MCQ answers in an essay format for each student.
 
+Instructions:
+ * create a new empty folder (DO NOT SKIP THIS STEP)
+ * place this file (convert-csv.py) and the downloaded CSV file from CourseWeb inside it
+ * run this file from within the folder
+ * it will create a seperate HTML file for each student submission, and a styles.css file
+ * if you want to enhance the look&feel of the HTML file, simply modify styles.css to your liking
+
+How to run:
+ * command:
+  > `$ cd folder`
+  > `$ python convert-csv.py input_file.csv limit`
+ * folder == the folder where everything is located
+ * input_file.csv == the name of the CSV file downloaded from CourseWeb, ensure it is CSV format
+ * limit == the number of rows from the CSV file
+
+Video Guide : https://web.microsoftstream.com/video/652fa76b-8534-4605-8670-75c58be261ba
 
 ## Prerequisites 
 
 ### Python Libraries
 
 <br>For Cleanup Code 01 and Cleanup Code 04<br><br>
-* patoolib
-
-		$ python -m pip install patool
-
-* pyunpack
-
-		$ python -m pip install pyunpack
-
-* unrar
-
-		$ python -m pip install unrar
+* patoolib -- `$ python -m pip install patool`
+* pyunpack -- `$ python -m pip install pyunpack`
+* unrar -- `$ python -m pip install unrar`
 
 <br>For Cleanup Code 03<br><br>
-* requests
-
-		$ python -m pip install requests
+* requests -- `$ python -m pip install requests`
 
 

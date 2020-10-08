@@ -38,6 +38,13 @@ Video Guide : https://web.microsoftstream.com/video/6d25ca77-5256-40db-b9bb-d652
 Overall Structure Diagram :<br>
 https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_4-OOP.jpg
 
+## Cleanup Code 05
+_Development Contribution : Ms. Vijani Piyawardana_
+
+This code extracts student projects into folders named with student ID, and looks for all .java files, counts all lines of code in the .java files and gives as a sum. Final output is a .CSV containing total number of lines for each student id for all student submissions.
+
+Video Guide : https://web.microsoftstream.com/video/b8629cc4-ce1d-47a5-9b3c-01f04e341274
+
 ## Student List Generator
 _Development Contribution : Mr. Thusithanjana Thilakarathne_
 

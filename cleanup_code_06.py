@@ -13,7 +13,7 @@ from unrar import rarfile
 #from unrar import rarfile
 
 
-
+# to check the argument is given when executing - the Folder name ex: VersionA
 if len(sys.argv)==1:
     sys.exit('no path specified')
 
@@ -22,6 +22,7 @@ cpy_src_path = os.path.abspath(sys.argv[1])
 if not os.path.isdir(cpy_src_path):
     sys.exit('path does not exist')
 
+# making 3 new folders to be used in this execution
 cpy_out_path = cpy_src_path + "_1allzips"
 ext_out_path = cpy_src_path + "_2extracted"
 sep_out_path = cpy_src_path + "_3separated"
@@ -40,16 +41,21 @@ os.makedirs(sep_out_path)
 os.makedirs(sep_out_path + "/other")
 os.makedirs(sep_out_path + "/cfiles")
 
+# list containing all Archive type, can include any archive type here. (.rar is a special case, so didn't mention it here)
 ext = [".zip", ".7z"]
 
-#collect all zip files inside folders
+# collect all zip files inside folders
 filename_new = "blank"
 for dir_path, dirnames, filenames in os.walk(cpy_src_path):
     
     for filename in filenames:
+
+        # taking student ID from the submission folder name
         stu_id = re.search("[0-9]{8}", dir_path)
         stu_id_string = stu_id.group(0)
         student_id = "IT" + stu_id_string
+
+        # renaming with correct Student ID
         if(filename.endswith(".zip")):
             filename_new = student_id + ".zip"
         elif(filename.endswith(".7z")):
@@ -58,15 +64,14 @@ for dir_path, dirnames, filenames in os.walk(cpy_src_path):
             filename_new = student_id + ".rar"
         else:
             filename_new = student_id + ".c"
-            
+        
+        # copying all Archives and other files inside every submission folder into another folder    
         src = os.path.join(dir_path, filename)
         dest = os.path.join(cpy_out_path, filename_new)
         shutil.copy2(src, dest)
 
-def copy_files(src, dest):
-    shutil.copy2(src, dest)
 
-
+# extract the Archives while pre-processing
 for file in os.listdir(cpy_out_path):
     fileName = cpy_out_path + '/' + file
     print("Folder Name : " + file)
@@ -112,7 +117,7 @@ for file in os.listdir(cpy_out_path):
         shutil.copy2(fileName, ext_out_path)
         print('copied... ' + fileName)
 
-# separate PDF , word and other files into 3 folders
+# filter out .c files into a folder 
 for dir_path, dirnames, filenames in os.walk(ext_out_path):
    for filename in filenames:
        if filename.endswith(".c"):

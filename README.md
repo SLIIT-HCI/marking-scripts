@@ -45,6 +45,15 @@ This code extracts student projects into folders named with student ID, and look
 
 Video Guide : https://web.microsoftstream.com/video/b8629cc4-ce1d-47a5-9b3c-01f04e341274
 
+## Cleanup Code 06
+_Development Contribution : Ms. Vijani Piyawardana_
+
+This python script will pre-process all the IP student submissions and filter out the .c files which are ready to be uploaded into gradescope for plagiarism checking. These student submissions has so many issues which are explained in the Overall Structure Diagram mentioned below, nd all these issues are finely handled and solved from this python script. This code need to import some of the python libraries, they are mentioned at the end of this README file.
+
+Video Guide : https://web.microsoftstream.com/video/3559ad67-b2e7-4215-9667-067fe9de7c2f
+Overall Structure Diagram :<br>
+https://github.com/SLIIT-HCI/marking-scripts/blob/master/overall_structure_diagrams/cleanup_code_6-IP.jpg 
+
 ## Student List Generator
 _Development Contribution : Mr. Thusithanjana Thilakarathne_
 

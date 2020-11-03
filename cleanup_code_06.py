@@ -5,7 +5,8 @@ import shutil
 from zipfile import ZipFile
 import patoolib
 from pyunpack import Archive
-os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.so"
+#if you have not installed rar library into the system uncomment the following line to give the part to the downloded file
+#os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.so"
 from unrar import rarfile
 #for windows, download .dll file and give path to that file
 #os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.dll"

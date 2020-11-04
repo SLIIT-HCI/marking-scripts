@@ -102,12 +102,18 @@ Video Guide : https://web.microsoftstream.com/video/652fa76b-8534-4605-8670-75c5
 
 ### Python Libraries
 
-<br>For Cleanup Code 01 and Cleanup Code 04<br><br>
+<br>For Cleanup Code 01 , 04 , 06<br><br>
 * patoolib -- `$ python -m pip install patool`
 * pyunpack -- `$ python -m pip install pyunpack`
 * unrar -- `$ python -m pip install unrar`
 
 <br>For Cleanup Code 03<br><br>
 * requests -- `$ python -m pip install requests`
+
+<br>For Windows users - installing UnRar
+* dowload <b>UnRAR.dll</b>	"UnRAR dynamic library for Windows software developers" from the following link:
+https://www.rarlab.com/rar_add.htm?fbclid=IwAR11ns-_Wx1YPXyOb_9Fs4ugYEyHcsoNOZ7voa0vhY8UP4XWJcvFRwfjdBY
+* install it
+* give path to the .dll file inside the installation folder into the correct place in the cleanup code
 
 

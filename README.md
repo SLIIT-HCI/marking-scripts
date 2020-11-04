@@ -110,7 +110,7 @@ Video Guide : https://web.microsoftstream.com/video/652fa76b-8534-4605-8670-75c5
 <br>For Cleanup Code 03<br><br>
 * requests -- `$ python -m pip install requests`
 
-<br>For Windows users - installing UnRar
+<br>For Windows users - installing UnRAR
 * dowload <b>UnRAR.dll</b>	"UnRAR dynamic library for Windows software developers" from the following link:
 https://www.rarlab.com/rar_add.htm?fbclid=IwAR11ns-_Wx1YPXyOb_9Fs4ugYEyHcsoNOZ7voa0vhY8UP4XWJcvFRwfjdBY
 * install it

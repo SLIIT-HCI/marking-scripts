@@ -3,13 +3,13 @@ import shutil
 from zipfile import ZipFile
 import patoolib
 from pyunpack import Archive
-os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.so"
+#os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.so"
 from unrar import rarfile
 
-cpy_src_path = "/home/vijani/Downloads/FromCourseweb/IP_11.2/1Originals"
-cpy_out_path = "/home/vijani/Downloads/FromCourseweb/IP_11.2/2allzips"
-ext_out_path = "/home/vijani/Downloads/FromCourseweb/IP_11.2/3extracted"
-sep_out_path = "/home/vijani/Downloads/FromCourseweb/IP_11.2/4separated"
+cpy_src_path = "/Users/Shyam/Downloads/VersionA"
+cpy_out_path = "/Users/Shyam/Downloads/VersionA_2allzips"
+ext_out_path = "/Users/Shyam/Downloads/VersionA_3extracted"
+sep_out_path = "/Users/Shyam/Downloads/VersionA_4separated"
 
 ext = [".zip", ".7z"]
 

@@ -12,7 +12,6 @@ from unrar import rarfile
 #os.environ["UNRAR_LIB_PATH"] = "/home/vijani/Desktop/unrar/libunrar.dll"
 #from unrar import rarfile
 
-
 # to check the argument is given when executing - the Folder name ex: VersionA
 if len(sys.argv)==1:
     sys.exit('no path specified')
@@ -52,24 +51,24 @@ for dir_path, dirnames, filenames in os.walk(cpy_src_path):
 
         # taking student ID from the submission folder name
         stu_id = re.search("[0-9]{8}", dir_path)
-        stu_id_string = stu_id.group(0)
-        student_id = "IT" + stu_id_string
+        if stu_id:
+            stu_id_string = stu_id.group(0)
+            student_id = "IT" + stu_id_string
 
-        # renaming with correct Student ID
-        if(filename.endswith(".zip")):
-            filename_new = student_id + ".zip"
-        elif(filename.endswith(".7z")):
-            filename_new = student_id + ".7z"
-        elif(filename.endswith(".rar")):
-            filename_new = student_id + ".rar"
-        else:
-            filename_new = student_id + ".c"
-        
-        # copying all Archives and other files inside every submission folder into another folder    
-        src = os.path.join(dir_path, filename)
-        dest = os.path.join(cpy_out_path, filename_new)
-        shutil.copy2(src, dest)
-
+            # renaming with correct Student ID
+            if(filename.endswith(".zip")):
+                filename_new = student_id + ".zip"
+            elif(filename.endswith(".7z")):
+                filename_new = student_id + ".7z"
+            elif(filename.endswith(".rar")):
+                filename_new = student_id + ".rar"
+            else:
+                filename_new = student_id + ".c"
+            
+            # copying all Archives and other files inside every submission folder into another folder    
+            src = os.path.join(dir_path, filename)
+            dest = os.path.join(cpy_out_path, filename_new)
+            shutil.copy2(src, dest)
 
 # extract the Archives while pre-processing
 for file in os.listdir(cpy_out_path):
